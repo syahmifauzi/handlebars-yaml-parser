@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parse(template, data)</title>
+  <meta name="author" content="Syahmi Fauzi">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <h1>Parse(template, data)</h1>
+    <div class="container">
+      <p>Template (Handlebars)</p>
+      <textarea id="template"></textarea>
+      <img id="copy-template" src="copy.svg" alt="Copy Input">
+    </div>
+    <div class="container">
+      <p>Data (YAML)</p>
+      <textarea id="data"></textarea>
+      <img id="copy-data" src="copy.svg" alt="Copy Input">
+    </div>
+    <div class="arrow">&darr;</div>
+    <div class="container">
+      <textarea id="output"></textarea>
+      <img id="copy-output" src="copy.svg" alt="Copy Input">
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/3.3.1/js-yaml.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
